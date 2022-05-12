@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+:root{
+	--clr-heading: #2155CD;
+	--ft-all:'poppins';
+	--ft-heading: 'Headland One';
+	--clr-text: #2155CD;
+	--clr-read: ;
+	--clr-nav: #ddd;
+	/*--clr-article: #79CAE8;*/
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/*background-color: #E8F9FD;*/
+	font-family: var(--ft-all);
+}
+
+h2,h3{
+	font-family: sans-serif;
+}
+.center-container{
+	width: min(60rem,92%);
+	margin: 0 auto;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+}
+
+header h1 {
+	letter-spacing: ;
+	padding: 3rem;
+	font-family:var(--ft-heading);
+}
+
+section{
+}
+nav {
+	padding: 1rem 0 ;
+	background-color: var(--clr-nav);
+}
+
+section article {
+	padding:  0 2rem;
+	background-color: #f1f1f1;
+	margin: 2rem 0;
+	background-color: var(--clr-article);
+
+}
+
+section article h3 {
+	padding: 1.6rem 0;
+}
+
+section article .content{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /*flex-wrap: wrap;*/
+}
+@media (max-width: 768px){
+	.content {
+ flex-wrap: wrap;
+
+	}
+}
+section article img{
+	aspect-ratio: ;
+}
+section article .text {
+	padding: 1rem;
+}
+section article .text p {
+	overflow: hidden;
+	height: 8rem;
+}
+section article .text .readmore{
+	padding: 1rem 0;
+}
+
+.readmore a{
+	text-decoration: none;
+	color: var(--clr-text);
+	font-size: 0.95rem;
+	font-weight: 600;	
+}
+
+footer{
+	padding: 1rem;
+	font-size:0.6rem;
+	background-color: #333;
+}
